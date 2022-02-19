@@ -1,2 +1,2 @@
-# practice-angular-app
- Shooping cart website
+# Angular-shopping-cart
+ Shooping cart website in angular
