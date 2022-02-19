@@ -1,0 +1,15 @@
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  border: gray 2px solid;
+}
+
+.form-input {
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.error-msg {
+  color: red;
+  font-size: smaller;
+}

@@ -1,0 +1,13 @@
+<div class="p-2">
+  <p>Quick delivery of fruits</p>
+  <app-item [notesData]="fruits" [notesTemplate]="template" [title]="title"></app-item>
+  <button (click)="onClick()">Add Item</button>
+</div>
+
+<ng-template #name let-data="data">
+  <span class="red p-1">{{ data.name }}</span>
+</ng-template>
+
+<ng-template #desc let-data="data">
+  <span class="green p-1">{{ data.desc }} </span>
+</ng-template>

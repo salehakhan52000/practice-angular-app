@@ -1,0 +1,17 @@
+<div>
+  Add items to cart
+
+  <!-- <div class="flex  flex-col"> -->
+    <ng-container class="flex  flex-col" *ngFor="let note of notesData">
+      <div class="flex">
+        <ng-container *ngFor="let template of notesTemplate">
+          <ng-template
+            [ngTemplateOutlet]="template"
+            [ngTemplateOutletContext]="{ data: note }"
+          >
+          </ng-template>
+        </ng-container>
+      </div>
+    </ng-container>
+  <!-- </div> -->
+</div>

@@ -1,0 +1,66 @@
+{
+    "fruits": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "img": "",
+            "qty": 50
+        },
+        {
+            "id": 2,
+            "name": "Banana",
+            "img": "",
+            "qty": 60
+        },
+        {
+            "id": 3,
+            "name": "Orange",
+            "img": "",
+            "qty": 70
+        },
+        {
+            "id": 4,
+            "name": "Kiwi",
+            "img": "",
+            "qty": 80
+        },
+        {
+            "id": 5,
+            "name": "Grapes",
+            "img": "",
+            "qty": 90
+        }
+    ],
+    "vegetables": [
+        {
+            "id": 1,
+            "name": "Onion",
+            "img": "",
+            "qty": 50
+        },
+        {
+            "id": 2,
+            "name": "Potato",
+            "img": "",
+            "qty": 60
+        },
+        {
+            "id": 3,
+            "name": "Spinach",
+            "img": "",
+            "qty": 70
+        },
+        {
+            "id": 4,
+            "name": "Cauliflower",
+            "img": "",
+            "qty": 80
+        },
+        {
+            "id": 5,
+            "name": "Long Beans",
+            "img": "",
+            "qty": 90
+        }
+    ]
+}
